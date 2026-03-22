@@ -1,6 +1,6 @@
 # <div align='center'>Lin Hua Yue Baileys</div>
 
-# Queen Elisa Bot
+- Queen Elisa
 
 
 ## ✨ Fitur Utama
@@ -15,7 +15,7 @@
 
 Proyek ini tidak berafiliasi, terkait, diotorisasi, didukung, atau terhubung secara resmi dengan WhatsApp atau anak perusahaannya. Situs resmi WhatsApp ada di whatsapp.com.
 
-Pengelola Wileys tidak mendukung penggunaan aplikasi ini untuk melanggar Ketentuan Layanan WhatsApp. Kami menekankan tanggung jawab pribadi pengguna untuk menggunakan secara adil dan bertanggung jawab.
+Kami tidak mendukung penggunaan aplikasi ini untuk melanggar Ketentuan Layanan WhatsApp. Kami menekankan tanggung jawab pribadi pengguna untuk menggunakan secara adil dan bertanggung jawab.
 
 Gunakan dengan bijak. Hindari spam. Jangan gunakan otomatisasi berlebihan.
 
@@ -23,13 +23,13 @@ Gunakan dengan bijak. Hindari spam. Jangan gunakan otomatisasi berlebihan.
 #### Pesan Teks
 
 ```javascript
-await sock.sendMessage(jid, { text: 'halo dunia' })
+await sock.sendMessage(jid, { text: 'halo semuanya' })
 ```
 
 #### Pesan Kutipan (bekerja dengan semua tipe)
 
 ```javascript
-await sock.sendMessage(jid, { text: 'halo dunia' }, { quoted: message })
+await sock.sendMessage(jid, { text: 'halo semuanya' }, { quoted: message })
 ```
 
 #### Sebut Pengguna (bekerja dengan sebagian besar tipe)
@@ -83,7 +83,7 @@ await sock.sendMessage(
     id,
     { 
         contacts: { 
-            displayName: 'Jeff', 
+            displayName: 'Elisa', 
             contacts: [{ vcard }] 
         }
     }
@@ -150,7 +150,7 @@ await sock.sendMessage(
 ### Kirim dengan Pratinjau Tautan
 
 1. Secara default, WA tidak punya generasi tautan dari web.
-2. Wileys punya fungsi untuk pratinjau tautan.
+2. Lin Hua Yue punya fungsi untuk pratinjau tautan.
 3. Tambahkan `link-preview-js` dengan `npm i link-preview-js`.
 4. Kirim tautan:
 
@@ -158,7 +158,7 @@ await sock.sendMessage(
 await sock.sendMessage(
     jid,
     {
-        text: 'Halo, ini dikirim menggunakan https://npmjs.com/wileys'
+        text: 'Halo, ini dikirim menggunakan https://npmjs.com/'linhuayue'
     }
 )
 ```
@@ -188,7 +188,7 @@ await sock.sendMessage(
         video: {
             url: './Media/ma_gif.mp4'
         },
-        caption: 'halo dunia',
+        caption: 'halo Semuanya',
         ptv: false // true untuk video note
     }
 )
@@ -221,7 +221,7 @@ await sock.sendMessage(
         image: {
             url: './Media/ma_img.png'
         },
-        caption: 'halo dunia'
+        caption: 'halo semuanya'
     }
 )
 ```
@@ -238,7 +238,7 @@ await sock.sendMessage(
             url: './Media/ma_img.png'
         },
         viewOnce: true, // bekerja dengan video, audio juga
-        caption: 'halo dunia'
+        caption: 'halo semuanya'
     }
 )
 ```
@@ -248,7 +248,7 @@ await sock.sendMessage(
 ### Hapus Pesan (untuk semua)
 
 ```javascript
-const msg = await sock.sendMessage(jid, { text: 'halo dunia' })
+const msg = await sock.sendMessage(jid, { text: 'halo semuanya' })
 await sock.sendMessage(jid, { delete: msg.key })
 ```
 
@@ -259,7 +259,7 @@ Gunakan konten editable.
 
 ```javascript
 await sock.sendMessage(jid, {
-      text: 'teks terupdate di sini',
+      text: 'hai aku elisa',
       edit: response.key,
     });
 ```
@@ -499,13 +499,13 @@ await sock.presenceSubscribe(jid)
 ### Ubah Status Profil
 
 ```javascript
-await sock.updateProfileStatus('Halo Dunia!')
+await sock.updateProfileStatus('Halo Semuanya!')
 ```
 
 ### Ubah Nama Profil
 
 ```javascript
-await sock.updateProfileName('Nama Saya')
+await sock.updateProfileName('Nama Saya Elisa')
 ```
 
 ### Ubah Foto Tampilan (grup juga)
@@ -867,3 +867,12 @@ sock.ws.on('CB:edge_routing,id:abcd,routing_info', (node: BinaryNode) => { })
 - **Keamanan**: Jangan bagikan kredensial auth; gunakan variabel lingkungan.
 
 ---
+
+## Terima Kasih
+
+- Allah SWT
+- Nabi Muhammad
+- Elisa
+- Yupra
+- Subsciber
+- Semuanya
