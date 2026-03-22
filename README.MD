@@ -1,5 +1,8 @@
 # <div align='center'>Lin Hua Yue Baileys</div>
 
+# Queen Elisa Bot
+
+
 ## ✨ Fitur Utama
 
 - 🚀 **Modern & Cepat** - Dibangun dengan TypeScript dan teknologi terbaru
